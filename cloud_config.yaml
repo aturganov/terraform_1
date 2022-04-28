@@ -1,0 +1,8 @@
+#cloud-config
+ssh_pwauth: no
+users:
+  - name: turganovai
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    shell: /bin/bash
+    ssh_authorized_keys:
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDP3dokE/N6evLfjs58BcJW+LO7JhxG7ID4dll9W2pm7ZevTJNaE1cy+a2evXN0zmspKALLCXE+ZFjQnfKzaVM4hwGTZMhD3wPUfviYb0ecbAdHhQAJCnCCPayVqXQ8YcGfzR7qwfzW7b2YjUCKuc4DXJO7+iU2FoQgxIBomrWvmclRGDYMfUShRYr6worwGGUfZQtj0iuGsAJ/D0vatCKnM7VBCJXYqGPv1VYoHav20jlaRZ7GOiHj2kYN2oXb68MudtmZBx8F56UB2OA3RMIPNmlsx9cvCXbeMqhxNXiXvMJRfVZsaVHj95x4rx//T0WCxoHtTG7TvUo2U3MTuy+j pgk\turganovai@Turganov-15IL"
